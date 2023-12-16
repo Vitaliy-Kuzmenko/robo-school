@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    scroll-behavior: smooth;
+}
+
+.section-heading-name{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.section-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 30px 0px;
+    border-color: #f12600;
+}
+.section-name-infoBlock{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.section-text-info{
+    font-size: 18px;
+    padding-top: 25px;
+
+}
+.section-button{
+    width: 200px;
+    height: 60px;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer
+}
+/**********************************/
+
+.header {
+    display: flex;
+    width: 100%;
+    min-width: 1080px;
+    justify-content: space-between;
+    background-color: #141024;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    line-height: 48px;
+    padding: 0 15px 0 60px;
+    }
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav >ul {
+    display: flex;
+    max-width: 100%;
+    min-width: 500px;
+    justify-content: space-evenly;
+    
+    
+}
+.nav > ul >li{
+    font-size:20px ;
+    cursor: pointer
+}
+
+.number-nav {
+    display: flex;
+    align-items: center;
+    padding: 0 60px 0 15px;
+    line-height: 48px;
+}
+
+/**********************************/
+
+.first-screen {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    min-width: 1080px;
+    background-color: #141024;
+    color: white;
+}
+
+.firstScreenConteiner{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    margin: 0 auto;
+}
+.firstScreenInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 50px; */
+}
+.firstScreenInfo > h2{
+    width: 600px;
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.firstScreenInfo > h4{
+    width: 478px;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+
+.firstScreenImg {
+    width: auto;
+    height: 100vh;
+    margin-right: 10px;
+}
+.firstScreenImg >img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/**********************************/
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    min-width: 1080px;
+    margin: 0 auto;
+}
+.info-conteiner{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.info-block{
+    width: 890px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.as-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+.as-skills-number{
+    font-size: 45px;
+    font-weight: 900;
+    color: red;
+}
+
+/********************************/
+.results-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 100px 0 ;
+    background-color: #a19cff85;
+}
+.results-conteiner{
+    max-width: 1280px;
+    min-width: 1080px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.results-block-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 45px;
+}
+
+
+/********************************************/
+.info-teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.teachers-profile-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.teachers-profile-conteiner > .section-block{
+    border: none;
+}
+
+.teachers-foto > img{
+    width: 100%;
+    height: auto;
+}
+
+.teachers-profile >span {
+    padding-top: 25px;
+    font-weight: 700;
+    color: red;
+}
+/************************/
+
+.school-price-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
